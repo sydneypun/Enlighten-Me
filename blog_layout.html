@@ -43,10 +43,24 @@
         <div class = "fakeimg">Image</div><br>
         <div class = "fakeimg">Image</div><br>
     </div>
+</div>
+<div class="footer">
+    <h2>Message Me</h2>
     <div class="container"> <!--PUT CARD HERE LATER IF CONTAINER DOESN'T WORK OUT!-->
-        <form action
-        <h3>Contact Me</h3>
+        <form action = action_page.php">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
         
-    </div>
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        
+            <label for="subject">Message</label>
+            <textarea id="Message" name="message" placeholder="Please write your message here..." 
+            style="height:200px"></textarea>
+        
+            <input type="submit" value="Submit">
+        
+          </form>
+        </div>
 </div>
 </div>
