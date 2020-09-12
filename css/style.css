@@ -1,3 +1,6 @@
+
+@import url('../css/fonts.css'); 
+
 .html, .body{
     margin: 0%; 
     box-sizing: border-box; 
@@ -51,6 +54,7 @@ ul{
     font-size: 1.6rem; 
     padding: 1rem 0;
     display: block;  
+    font-family: Anton; 
     /*-- text-decoration: none; --*/
 }
 
