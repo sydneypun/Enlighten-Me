@@ -8,30 +8,65 @@
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,500,500i
         700,700i,900,900i">
         <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/debug.css">
-        <style>
+        <link rel="stylesheet" href="css/-debug.css"> <!--MISSPELL THE DEBUGGER FILE TO TURN IT OFF!-->
+        <link rel="stylesheet" href="css/article.css">
+        <link rel="stylesheet" href="styles/article-image.css">
+       <style>
 
-article{
-    display:grid; 
-    grid-template-columns: 1fr 0.5in [start] minmax(0, 7.5in) [end] 0.5in 1fr; 
+h2,p:not(:last-child) {margin-bottom:2.4rem; }
 
-    height: 100vh; /* temporary fix */
-    
-    padding: 0.5in 0;
-}
+h1      { font: 400 2.0rem/1.2 "Roboto"; color: hsl() }
+h2      { font: 400 1.5rem/1.2 "Roboto"; color: hsl() }
+time    { font: 400 1.0rem/1.2 "Roboto"; color: hsl() } 
+h3      { font: 400 1.0rem/1.2 "Roboto"; color: hsl() }
+p       { font: 400 1.0rem/1.5 "Roboto"; color: hsl() }
 
-article * {grid-column: start / end;}
+a { box-shadow: inset 0 -0.25rem black; }
+
+@media (max-width: 8.5in) { :root { font-size: 18px; }}
+@media (max-width: 5.0in) { :root { font-size: 16px; }}        
+
         </style>
     </head>
     <body>
-        <article>
-            <p class= "debug-center">ARTICLE</p>
+            <p class= "debug-center">The Top Data Visualization Libraries of 2020</p>
+            <article id="DS-libraries">
+                <h1><a href="https://medium.com/javascript-in-plain-english/best-javascript-data-visualization-libraries-for-2020-15291919a176"> 
+                    The Top<em> Javascript </em> Data Visualization Libraries of 2020</a> </h1>
+                    <h2>(Not in Ranked Order)</h2>
+                <p> </p> 
+                <time datetime="09-21-2020">SEPTEMBER 25, 2020</time>
+                
+                <p>
+                    <em>A while ago</em>, I was perusing through Google and I found an article on <Medium class="com"></Medium> 
+                    listing the best data visualization libraries of 2020. 
+                </p>
+                
+                <h3> WHAT IS DATA VISUALIZATION?</h3>
+                <p> 
+                    <a href="https://www.tableau.com/learn/articles/data-visualization">Data visualization</a> can be viewed as 
+                    the integration of science with art. That is because we are utilizing charts, graphs, and other data-visualization
+                    methods in order to illustrate the data that was gathered through scientific means.
+                </p>  
+                
+                <h3> CARE TO ENLIGHTEN ME ON WHY WE ARE USING JAVASCRIPT?</h3>
+                <p>
+                    Javascript is used for data visualization because it can process large data sets to run simultaneously in parallel. What this means is that Javascript
+                    is a language that can handle the consumption of large amounts of data which is pivotal for creating more intricate graphs, charts, pivot 
+                    tables, etc. <strong>Care to enlighten me on how you plan on using these libraries? </strong>
+                </p>    
         </article>
         <article>
-            <p class= "debug-center">ARTICLE</p>
+            <p class= "debug-center">1. D3.js</p>
         </article>
         <article>
-            <p class= "debug-center">ARTICLE</p>
+            <p class= "debug-center">2. PivotTable.js</p>
         </article>
+        <article>
+            <p class= "debug-center">3. Charts.js</p>
+        </article>
+        <!--<article>
+            <p class= "debug-center">Experimenting with PivotTable.js</p>
+        </article>!-->
     </body>
 </html>
