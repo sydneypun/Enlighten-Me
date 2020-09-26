@@ -1,6 +1,21 @@
-.size-1 { grid-column: 4 / 5; }
+.size-1 { grid-column: 1 / 8; }
 .size-2 { grid-column: 3 / 6; }
 .size-3 { grid-column: 2 / 7; }
 .size-4 { grid-column: 1 / 8; }
 
 img.size-1, img.size-2, img.size-3, img.size-4 { width: 100%; }
+
+.container {
+    margin: 10px;
+    width: 115px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    border: 1px solid red;
+}
+
+.resize_fit_center {
+    max-width:100%;
+    max-height:100%;
+    vertical-align: middle;
+}
