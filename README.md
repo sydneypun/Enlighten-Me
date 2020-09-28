@@ -10,5 +10,3 @@ This is a blog in which I experiment with various data visualization libraries o
 
 - [x] Post Layout
 ![Image 2](https://github.com/sydneypun/Enlighten-Me/blob/master/readme%20images/first%20post.png)
-
-- [ ] Experimenting with Data Visualiation Libraries (To be completed by 9/25/20)
